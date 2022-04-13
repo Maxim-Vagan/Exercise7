@@ -9,13 +9,13 @@ public class Main {
         String middleName = "Ivanovich";
         String lastName   = "Ivanov";
         String fullName = String.join(" ", lastName, firstName, middleName);
-        System.out.println("ФИО сотрудника - " + fullName);
+        System.out.println("Р¤РРћ СЃРѕС‚СЂСѓРґРЅРёРєР° - " + fullName);
 //	    Task 2
         System.out.println("Task 2");
-        System.out.println("Данные ФИО сотрудника для заполнения отчета - " + fullName.toUpperCase());
+        System.out.println("Р”Р°РЅРЅС‹Рµ Р¤РРћ СЃРѕС‚СЂСѓРґРЅРёРєР° РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РѕС‚С‡РµС‚Р° - " + fullName.toUpperCase());
 //	    Task 3
         System.out.println("Task 3");
-        fullName = "Иванов Семён Семёнович";
-        System.out.println("Данные ФИО сотрудника - " + fullName.replace('ё', 'e'));
+        fullName = "РРІР°РЅРѕРІ РЎРµРјС‘РЅ РЎРµРјС‘РЅРѕРІРёС‡";
+        System.out.println("Р”Р°РЅРЅС‹Рµ Р¤РРћ СЃРѕС‚СЂСѓРґРЅРёРєР° - " + fullName.replace('С‘', 'e'));
     }
 }
